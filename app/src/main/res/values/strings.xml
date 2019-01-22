@@ -1,0 +1,116 @@
+<resources>
+    // app's name
+    <string name="app_name">Homework Tracker</string>
+
+    // headers text
+    <string name="login">LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="courses">COURSES</string>
+    <string name="add_course">ADD COURSE</string>
+    <string name="home">HOME</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="add_homework">ADD HOMEWORK</string>
+    <string name="settings">SETTINGS</string>
+    <string name="update_setting">UPDATE SETTINGS</string>
+    <string name="logout">LOG OUT</string>
+
+    // radio button text
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    // fonts
+    <string name="buttonFont">monospace</string>
+    <string name="formFont">sans-serif-condensed</string>
+
+    // email and password fields
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_reenter">Password (re-enter)</string>
+    <string name="prompt_new_email">New Email</string>
+    <string name="prompt_new_password">New Password</string>
+
+    // email and password reactions
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    // Login form text and prompts
+    <string name="login_welcome">Welcome to Homework Tracker</string>
+    <string name="login_prompt">Enter your login information below</string>
+    <string name="login_signup_prompt">New to Homework Tracker? Sign Up by clicking button below.</string>
+
+    // Sign up (and settings) form prompts
+    <string name="signup_prompt">Enter the following information to sign up</string>
+    <string name="email_prompt">Email</string>
+    <string name="password_prompt">Password</string>
+    <string name="education_level_prompt">Current Level of Education</string>
+    <string name="major_prompt">Major/Subject of Education</string>
+    <string name="weekly_hrs_prompt">Average Hours of homework weekly</string>
+    <string name="notification_prompt">Would you like notifications?</string>
+
+    // Add course prompts
+    <string name="course_name_prompt">Course Name</string>
+    <string name="ta_hrs_prompt">Weekly TA Hours</string>
+    <string name="office_hrs_prompt">Weekly Office Hours</string>
+
+    // Add homework prompts
+    <string name="name_prompt">Name</string>
+    <string name="course_prompt">Course</string>
+    <string name="frequency_prompt">Frequency</string>
+
+    // Miscellaneous texts
+    <string name="home_intro">Here are your homeworks for this week. Remember to update them!</string>
+
+    // Default texts
+    <string name="def_bt_text">DEF. BUTTON</string>
+    <string name="def_course_name">Course Name</string>
+    <string name="def_ta_hours">TA hours: Def 0:00PM - 0:00PM</string>
+    <string name="def_office_hrs">Office Hours: Def 0:00AM - 0:00AM</string>
+
+    // Spinner - level of education elements
+    <string-array name="level_of_education">
+        <item>Middle School Diploma</item>
+        <item>High School Diploma</item>
+        <item>Associate Degree</item>
+        <item>Bachelor\'s Degree</item>
+        <item>Master\'s Degree</item>
+        <item>Doctoral Degree</item>
+    </string-array>
+
+    // Spinner - days of the week elements
+    <string-array name="days_of_week">
+        <item>Mon</item>
+        <item>Tues</item>
+        <item>Wed</item>
+        <item>Thurs</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    // Spinner - homework frequency elements
+    <string-array name="homework_frequency">
+        <item>Once</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    // Spinner (default info) - courses elements
+    <string-array name="list_courses">
+        <item>Calculus II</item>
+        <item>Italian</item>
+        <item>Art and Its Hist.</item>
+        <item>French</item>
+        <item>Discrete Math</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_sign_in_short">Sign In Here</string>
+    <!-- Strings related to login -->
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    // padding values (dimen)
+    <dimen name="layoutPadding">20dp</dimen>
+    <dimen name="cardInnerPadding">5dp</dimen>
+    <dimen name="scrollViewBottomMargin">30dp</dimen>
+
+    // width/height values
+    <dimen name="formTextMaxWidth">130dp</dimen>
+    <dimen name="progressMinWidth">250dp</dimen>
+    <dimen name="progressMinHeight">50dip</dimen>
+
+    // margin values
+    <dimen name="formEditTextLeftMargin">5dp</dimen>
+    <dimen name="cardBottomMargin">15dp</dimen>
+    <dimen name="homeworkBottomMargin">15dp</dimen>
+</resources>

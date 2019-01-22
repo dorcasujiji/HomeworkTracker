@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/navigation_courses"
+        android:icon="@drawable/ic_library_books_white_24dp"
+        android:title="@string/courses" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/settings" />
+
+    <item
+        android:id="@+id/navigation_logout"
+        android:icon="@drawable/ic_power_settings_new_white_24dp"
+        android:title="@string/logout" />
+
+</menu>

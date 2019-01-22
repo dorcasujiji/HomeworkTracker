@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/layoutPadding">
+
+    <TextView
+        style="@style/FloatingTextTheme"
+        android:text="@string/login_welcome"/>
+    <TextView
+        style="@style/InstructionTextTheme"
+        android:text="@string/login_prompt"
+        android:layout_marginBottom="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <AutoCompleteTextView
+            android:id="@+id/email"
+            style="@style/EmailTextViewStyle" />
+        <TextView
+            android:id="@+id/password"
+            style="@style/PasswordTextViewStyle" />
+
+    </LinearLayout>
+
+    <Button
+        style="@style/ButtonTheme"
+        android:onClick="onClickLoginButton"
+        android:text="@string/login"/>
+
+    <TextView
+        style="@style/InstructionTextTheme"
+        android:text="@string/login_signup_prompt"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        style="@style/ButtonTheme"
+        android:onClick="onClickSignUpButton"
+        android:text="@string/sign_up" />
+
+</LinearLayout>

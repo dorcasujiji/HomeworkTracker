@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCourseFragment"
+    android:padding="@dimen/layoutPadding">
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/def_course_name"
+            style="@style/FormTextTheme"/>
+        <Spinner
+            android:id="@+id/courses"
+            style="@style/SpinnerStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_below="@id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/ta_hrs_prompt"
+            style="@style/FormTextTheme"/>
+        <Spinner
+            android:id="@+id/taHourDay"
+            style="@style/SpinnerStyle"
+            android:layout_width="wrap_content"/>
+        <EditText
+            android:id="@+id/startTaHour"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:inputType="time"/>
+        <TextView
+            android:text="to"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+        <EditText
+            android:id="@+id/endTaHour"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:inputType="time"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/third"
+        android:layout_below="@id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/office_hrs_prompt"
+            style="@style/FormTextTheme"/>
+        <Spinner
+            android:id="@+id/officeHourDay"
+            style="@style/SpinnerStyle"
+            android:layout_width="wrap_content"/>
+        <EditText
+            android:id="@+id/startOfficeHour"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:inputType="time"/>
+        <TextView
+            android:text="to"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+        <EditText
+            android:id="@+id/endOfficeHour"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:inputType="time"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/finalAddCourseButton"
+        android:layout_below="@id/third"
+        android:layout_centerHorizontal="true"
+        android:text="@string/add_course"
+        style="@style/ButtonTheme"/>
+
+</RelativeLayout>
